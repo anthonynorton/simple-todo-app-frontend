@@ -1,0 +1,187 @@
+.Todo-add {
+  display: grid;
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  grid-template-columns: [start] 50px [text-start] 1fr [btn2-start] 40px [next-to-last btn1-start] 40px [end];
+  grid-template-rows: [top] 50px [bottom];
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.Todo-add-btn {
+  display: grid;
+  transition: background-color .25s ease, color .25s ease;
+}
+
+.Todo-add-btn,
+.Todo-add input,
+.Todo-add input::placeholder {
+  color: #fff;
+}
+
+.action-primary {
+  align-items: center;
+  display: flex;
+  font-size: 1.5em;
+  height: 50px;
+  justify-content: center;
+  position: relative;
+  width: 50px;
+}
+
+.action-primary > * {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.action-primary .btn {
+  border-radius: 3px;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  text-align: center;
+  transition: box-shadow .25s ease;
+}
+
+.action-primary .btn path {
+  fill: #fff;
+}
+
+.action-primary .todo-cb-label:hover {
+  box-shadow: inset 2px 2px 8px rgba(0,0,0,0.4);
+  transition: box-shadow .25s ease;
+}
+
+.action-primary .btn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: background-color .25s ease, color .25s ease;
+}
+
+.action-primary .btn:hover path {
+  background-color: #fff;
+  fill: #000;
+  transition: fill .25s ease, color .25s ease;
+}
+
+.todo-cb-input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  opacity: 0;
+}
+
+.todo-cb-label {
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #999;
+  height: 40px;
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  transition: box-shadow .25s ease;
+  width: 40px;
+  z-index: 10;
+}
+
+.todo-cb-label::before, .todo-cb-label::after {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+}
+
+.todo-cb-label::before {
+  background-color: #000;
+  border-radius: 2px 2px 2px 0;
+  top: 16px;
+  left: 9px;
+  height: 15px;
+  width: 6px;
+  transform: rotate(-43.35deg)
+}
+
+.todo-cb-label::after {
+  background-color: #000;
+  border-radius: 2px;
+  top: 5px;
+  left: 20px;
+  height: 27px;
+  width: 6px;
+  transform: rotate(43.35deg)
+}
+
+.todo-cb-check {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+}
+
+.todo-cb-input:checked + .todo-cb-label {
+  background-color: transparent;
+}
+
+.todo-text {
+  background-color: transparent;
+  border: none;
+  content: '';
+  display: inline-block;
+  font-size: 1em;
+  grid-column: text-start / end;
+  height: 50px;
+  min-width: 200px;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+
+.actions-sub {
+  display: flex;
+  grid-column: start / end;
+  grid-row: line/bottom;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btn:hover {
+}
+
+.btn:active {
+  font-size: .9em;
+}
+
+.todo-btn {
+  background-color: transparent;
+}
+
+.actions-sub .todo-btn {
+  background-color: rgba(255,255,255,0);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: background-color .25s ease, font-size .25s ease;
+  width: 30px;
+}
+
+.actions-sub .todo-btn:hover {
+  background-color: rgba(255,255,255,1);
+  color: #004e92;
+  font-size: 1.2em;
+  transition: background-color .25s ease, font-size .25s ease;
+}
+
+.clickable, .clickable * {
+  cursor: pointer
+}

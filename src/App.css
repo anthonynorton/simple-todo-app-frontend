@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  background: #000428;  /* fallback for old browsers */
+  background: #004e92;
+
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  min-height: 100%;
+  width: 100%;
+}
+
+.App-main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}

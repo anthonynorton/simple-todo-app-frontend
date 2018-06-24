@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 386 493.454">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-3 {
+        filter: url(#Path_22);
+      }
+
+      .cls-4 {
+        filter: url(#Path_8-3);
+      }
+
+      .cls-5 {
+        filter: url(#Path_8-2);
+      }
+
+      .cls-6 {
+        filter: url(#Path_8);
+      }
+
+      .cls-7 {
+        filter: url(#Path_21);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.598" x2="0.353" y2="0.192" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#484848"/>
+      <stop offset="1" stop-color="#555"/>
+    </linearGradient>
+    <filter id="Path_21" x="0" y="64.636" width="386" height="378" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="1" y1="0.753" x2="0" y2="0.023" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a24141"/>
+      <stop offset="1" stop-color="#ff6565"/>
+    </linearGradient>
+    <filter id="Path_8" x="6.988" y="85.62" width="262.46" height="407.834" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_8-2" x="117.891" y="32.008" width="176.404" height="426.097" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_8-3" x="202.633" y="0" width="133.148" height="426.094" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_22" x="206.951" y="231.636" width="179.049" height="211" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-5"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_9" data-name="Group 9" transform="translate(580 560.636)">
+    <path id="Top_Left_Corner_Slice" data-name="Top Left Corner Slice" class="cls-1" d="M0,0V137.421L66.869,0Z" transform="translate(-543.55 -465.156) rotate(-3)"/>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, -580, -560.64)">
+      <path id="Path_21-2" data-name="Path 21" class="cls-1" d="M326,0V167L252.269,318H0V152.581L74.246,0Z" transform="translate(36 84.64)"/>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(-687.519 -591.589) rotate(-19)">
+      <g id="Symbol_4_10" data-name="Symbol 4 – 10" transform="translate(62.447 -66.833) rotate(30)">
+        <g class="cls-6" transform="matrix(0.98, -0.19, 0.19, 0.98, 90.78, 98.97)">
+          <path id="Path_8-4" data-name="Path 8" class="cls-2" d="M0,0H47.9L22.979,357.482,0,363.639Z" transform="matrix(0.9, 0.44, -0.44, 0.9, 202.4, 105.62)"/>
+        </g>
+      </g>
+      <g id="Symbol_4_11" data-name="Symbol 4 – 11" transform="matrix(0.966, 0.259, -0.259, 0.966, 29.152, -52.44)">
+        <g class="cls-5" transform="matrix(1, 0.07, -0.07, 1, 90.51, 96.58)">
+          <path id="Path_8-5" data-name="Path 8" class="cls-2" d="M0,0H47.9L22.979,357.482,0,363.639Z" transform="matrix(0.98, 0.19, -0.19, 0.98, 223.28, 52.01)"/>
+        </g>
+      </g>
+      <g id="Symbol_4_12" data-name="Symbol 4 – 12">
+        <g class="cls-4" transform="matrix(0.95, 0.33, -0.33, 0.95, 91.58, 64.27)">
+          <path id="Path_8-6" data-name="Path 8" class="cls-2" d="M0,0H47.9L22.979,357.482,0,363.639Z" transform="matrix(1, -0.07, 0.07, 1, 238.63, 23.34)"/>
+        </g>
+      </g>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -580, -560.64)">
+      <path id="Path_22-2" data-name="Path 22" class="cls-1" d="M-45.049,93.686.27,152,74,1Z" transform="translate(288 250.64)"/>
+    </g>
+  </g>
+</svg>

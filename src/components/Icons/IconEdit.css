@@ -1,0 +1,24 @@
+.cls-1, .cls-2 {
+  fill: none;
+}
+
+.cls-2 {
+  stroke: #707070;
+  stroke-width: 50px;
+}
+
+.cls-3 {
+  clip-path: url(#clip-path);
+}
+
+.cls-4, .cls-5 {
+  fill: #707070;
+}
+
+.cls-6, .cls-7 {
+  stroke: none;
+}
+
+.cls-7 {
+  fill: #fff;
+}
