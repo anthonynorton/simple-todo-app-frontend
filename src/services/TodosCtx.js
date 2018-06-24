@@ -28,7 +28,38 @@ class TodosProvider extends Component {
     })
     this.setState({ todos: updatedList })
   }
+
   // Delete
+  postDelete = id => {
+    const updatedList = this.state.todos.map(todo => {
+      if (todo._id === id) {
+        console.log(todo._id)
+        fetch(`/todos/${id}`)
+          .then(res => {
+            return res.json()
+          })
+          .then(data => {
+            this.deleteTodo(id)
+          })
+          .catch(err => {
+            debugger
+          })
+        return Object.assign({}, todo, { deleting: true })
+      }
+      return todo
+    })
+    this.setState({ todos: updatedList })
+    console.log(id)
+  }
+
+  // Delete
+  deleteTodo = id => {
+    const updatedList = this.state.todos.filter(todo => {
+      return todo._id !== id
+    })
+    this.setState({ todos: updatedList })
+    console.log(id)
+  }
   // Edit
   // Update
 
@@ -39,6 +70,7 @@ class TodosProvider extends Component {
           todos: this.state.todos,
           todoActions: {
             toggleCompleted: this.toggleTodoCompleted,
+            postDelete: this.postDelete,
           },
         }}
       >

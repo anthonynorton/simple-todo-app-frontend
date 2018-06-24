@@ -21,8 +21,11 @@ const Todo = ({ todo, actions }) => (
       <button className="Todo-edit Todo-btn sub btn">
         <IconEdit />
       </button>
-      <button className="Todo-delete Todo-btn sub btn">
-        <IconTrash onClick={e => actions.deleteTodo(todo._id)} />
+      <button
+        className="Todo-delete Todo-btn sub btn"
+        onClick={e => actions.postDelete(todo._id)}
+      >
+        <IconTrash />
       </button>
     </div>
   </li>
