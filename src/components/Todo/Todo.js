@@ -28,6 +28,7 @@ const Todo = ({ todo, actions }) => (
         <IconTrash />
       </button>
     </div>
+    <div className="Todo-Screen" />
   </li>
 )
 

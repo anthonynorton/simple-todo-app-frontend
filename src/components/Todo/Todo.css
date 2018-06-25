@@ -7,15 +7,13 @@
   width: 100%;
 }
 
-.Todo-li.deleting {
-  background-color: red;
-}
-
 .action-primary {
   align-items: center;
   color: #fff;
   display: flex;
   font-size: 1.5em;
+  grid-column: 1/2;
+  grid-row: 1/2;
   height: 50px;
   justify-content: center;
   position: relative;
@@ -129,6 +127,8 @@
   min-width: 200px;
   padding: 10px;
   text-overflow: ellipsis;
+  grid-column: 2/-1;
+  grid-row: 1/2;
 }
 
 .actions-sub {
@@ -137,6 +137,8 @@
   grid-row: line/bottom;
   justify-content: flex-end;
   align-items: center;
+  grid-column: 1/-1;
+  grid-row: 2/-1;
 }
 
 .btn {
@@ -196,6 +198,19 @@
 
 .Todo-edit .icon-comp {
   width: 1em;
+}
+
+.Todo-Screen {
+  background: rgba(0,0,0,0.0);
+  transition: background 0.25s ease;
+}
+
+
+.Todo-li.deleting .Todo-Screen {
+  background: rgba(0,0,0,0.75);
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+  z-index: 50;
 }
 
 .clickable, .clickable * {
