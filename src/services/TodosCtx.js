@@ -34,7 +34,7 @@ class TodosProvider extends Component {
     const updatedList = this.state.todos.map(todo => {
       if (todo._id === id) {
         console.log(todo._id)
-        fetch(`/todos/${id}`)
+        fetch(`/todos/${id}`, { method: 'DELETE' })
           .then(res => {
             return res.json()
           })
